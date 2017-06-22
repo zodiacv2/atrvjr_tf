@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="atrvjr_tf" name="atrvjr_tf" type="atrvjr_tf_node"></node>
+  <node pkg="atrvjr_tf" name="atrvjr_tf_odom" type="atrvjr_tf_odom"></node>
+  <node pkg="atrvjr_tf" name="atrvjr_tf_map" type="atrvjr_tf_map"></node>
+</launch>
